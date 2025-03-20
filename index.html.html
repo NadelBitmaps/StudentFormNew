@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Student data Collection</h1>
+        <div class="formContainer shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <form action="" method="get">
+                <!-- form -->
+                <form>
+                    <div class="mb-3">
+                      <label for="s-Name" class="form-label"><strong>Student Name</strong></label>
+                      <input type="text" class="form-control" placeholder="enter your name" id="s-Name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="s-Age" class="form-label"><strong>Age</strong></label>
+                      <input type="date" class="form-control" placeholder="enter your Age" id="s-Age">
+                    </div>
+                    <div class="mb-3">
+                        <label for="s-Location" class="form-label"><strong>Student Location</strong></label>
+                      <input type="text" class="form-control" placeholder="enter your Location" id="s-Location">
+                    </div>
+                    <div class="mb-3">
+                        <label for="s-fav-course" class="form-label"><strong>Favourite Couse</strong></label>
+                        <input type="text" class="form-control" placeholder="enter your favourite course" id="s-fav-course">
+                      </div>
+                    
+                  </form>
+            </form>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>select your gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                
+              </select>
+              <!-- Favourite courses -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Marketing
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaultdata">
+                <label class="form-check-label" for="flexCheckDefaultdata">
+                  Data Analysis
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                <label class="form-check-label" for="flexCheckDefault3">
+                  Front End Dev
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                <label class="form-check-label" for="flexCheckDefault4">
+                  Cyber Security
+                </label>
+              </div>
+              
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+    </div>
+    
+</body>
+</html>
